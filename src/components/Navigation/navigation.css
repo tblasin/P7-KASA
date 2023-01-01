@@ -1,0 +1,61 @@
+/*-- Navigation --*/
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 24%;
+  height: 100%;
+}
+
+.itemMenu {
+  text-decoration: none;
+  font-family: 'Montserrat' ;
+  font-style: normal;
+  font-size: 24px;
+  color: #FF6060;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-active {
+  text-decoration: underline; 
+}
+
+
+
+/* Responsive Css/Media Queries */ 
+
+
+  @media screen and (max-width: 768px) {
+
+    .itemMenu{
+      font-size: 18px;
+    }
+
+    .navigation{
+      width: 30%;
+    }
+  
+  }
+
+
+  @media screen and (max-width: 375px) {
+    
+    .itemMenu {
+      font-size: 12px;
+      text-transform: uppercase;
+    } 
+
+    .navigation{
+      width: 40%;
+      margin-top: 20px;
+    }
+    
+  }
+
+  
+  

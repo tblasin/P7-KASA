@@ -1,0 +1,217 @@
+/*-- Logement --*/
+
+
+  .houseDetails {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2%;
+    margin-left: 110px;
+    margin-right: 110px;
+    margin-top: 4%;
+  }
+  
+  .titreLogement {
+    font-family: montserrat, sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    color: #ff6060;
+    text-align: left;
+  }
+  
+  .host {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .host p {
+    font-family: montserrat, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: #ff6060;
+  }
+
+  .host img {
+    border-radius: 50%;
+    width: 64px;
+    margin-left: 10px;
+  }
+  
+  .name {
+    display: flex;
+    width: min-content;
+  }
+
+  .location {
+    text-align: left;
+    margin-bottom: 20px;
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    color: #ff6060;
+    top: -10px;
+  }
+  
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .tag {
+    background: none;
+    border: #ff6060;
+    background-color: #ff6060;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #ffffff;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+  }
+  
+  .stars {
+    height: 30px;
+    width: 30px;
+  }
+  
+  .rating {
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .collapsesContainer {
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 20px;
+   width: 100%;
+   margin-bottom: 10%;
+  }
+  
+  .Collapses {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 69px;
+    width: 85%;
+  }
+
+  
+
+/* Responsive Css/Media Queries */ 
+
+
+@media screen and (max-width: 768px){
+
+
+  .houseDetails{
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+
+  .titreLogement{
+    font-size: 25px;
+  }
+
+  .Collapses{
+    gap: 40px;
+  }
+
+  .stars {
+    height: 24px;
+    width: 24px;
+  }
+
+}
+
+
+@media screen and (max-width: 375px) {
+
+
+  .houseDetails{
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: -4%;
+  }
+
+  .titreLogement{
+    font-size: 18px;
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-end;
+    margin-top: 10%;
+    line-height: 2rem;
+  }
+
+  .location{
+    font-size: 14px;
+    line-height: 0px;
+  }
+
+  .tag{
+    font-size: 10px;
+    margin-right: 10px;
+  }
+
+  .hostRating{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+
+  .rating{
+    align-items: center;
+  }
+
+  .stars{
+    width: 15px;
+    height: 15px;
+  }
+
+  .host{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .host p{
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .host img{
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+  }
+
+  .name{
+    display: flex;
+  }
+
+  .collapsesContainer{
+    flex-wrap: wrap;
+  }
+
+  .Collapses{
+    flex-direction: column;
+    width: 90%;
+    gap: 25px;
+  }
+
+}
+
+  

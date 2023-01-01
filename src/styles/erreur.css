@@ -1,0 +1,82 @@
+/*-- Erreur --*/
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FFFFFF;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.errexp {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    color: #FF6060;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.return {
+    text-decoration: underline;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    color: #FF6060;
+    margin-top: 10%;
+}
+
+#Error404Mobile{
+    display: none;
+}
+
+
+
+/* Responsive Css/Media Queries */ 
+
+
+@media screen and (max-width: 768px) {
+
+    #Error404{
+        display: none;
+    }
+
+    #Error404Mobile{
+        display: block;
+    }
+
+    .errexp{
+        font-size: 20px;
+    }
+
+}
+
+
+@media screen and (max-width: 375px) {
+
+    .container2{
+        padding-top: 35%;
+    }
+    
+    .error{
+        font-size: 96px;
+        top: 20%;
+    }
+
+    .errexp {
+        font-size: 18px;
+        text-align: center;
+        display: flex;
+        align-items: flex-end;
+        width: 60%;
+    }
+
+    .return{
+        font-size: 12px;
+        left: 16%;
+        top: 68%;
+    } 
+
+}
+

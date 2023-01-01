@@ -1,0 +1,38 @@
+/*-- Footerlogos --*/
+
+.logofooter {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: baseline;
+    width: 10%;
+    height: 35%;
+    justify-content: space-around;
+ }
+
+ 
+
+/* Responsive Css/Media Queries */ 
+
+
+@media screen and (max-width: 768px){
+
+    .logofooter{
+        width: 17%;
+        display: flex;
+        justify-content: space-around;
+        align-items: baseline;
+    }
+}
+
+
+@media screen and (max-width: 375px){
+    
+    .logofooter{
+        width: 20%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 2px;
+    }
+}

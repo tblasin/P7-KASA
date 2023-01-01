@@ -1,0 +1,61 @@
+/*-- Logos --*/
+
+.logo {
+   display:flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   align-items: baseline;
+   width: 18%;
+   height: 100%;
+   justify-content: space-around;
+}
+
+#logoDesktop{
+    display: inline-block;
+}
+
+
+#logoMobile { 
+    display: none;
+}
+
+
+
+ /* Responsive Css/Media Queries */ 
+
+
+@media screen and (max-width: 768px) {
+
+    .logo {
+        width: 23%;
+        margin-top: 5%;
+    }
+
+    #logoDesktop {
+        display: none;  
+    }
+
+    #logoMobile { 
+        display: inline-block;
+    }
+
+
+@media screen and (max-width: 375px){
+
+    .logo{
+        width: 45%;
+        height: 110%;
+    }
+}
+
+}
+
+
+
+
+
+
+
+
+    
+   

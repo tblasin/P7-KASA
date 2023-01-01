@@ -1,0 +1,20 @@
+/*-- Index --*/
+
+@font-face {
+  font-family: 'Montserrat';
+  src: local('Montserrat'), url(../assets/fonts/Montserrat/static/Montserrat-Medium.ttf) format('truetype');
+}
+
+body {
+  display: flex;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+#root{
+  width: 100%;
+  flex-grow: 1;
+}
+
+
+
