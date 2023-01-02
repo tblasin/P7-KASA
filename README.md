@@ -4,6 +4,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+### Access my-app folder first with Terminal : `cd my-app`
+
 In the project directory, you can run:
 
 ### `npm start`
